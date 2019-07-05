@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr = ['c', 's', 'c', '2', '6', '1'];
+    document.write(arr + "<br>");
+    document.write(arr.length + "<br>");
+    let dem =0;
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr.length; j++) {
+            if (arr[i] == Number(arr[j]) ) {
+                dem++;
+            }
+        }
+    }
+    document.write('Có tất cả là :'+ dem + ' số');
+
+
+</script>
+</body>
+</html>

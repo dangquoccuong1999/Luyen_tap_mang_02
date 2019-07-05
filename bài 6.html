@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let chuoi = 'Đặng-Quốc-Cường';
+    chuoi = chuoi.split('');
+    for (let i=0; i <chuoi.length; i++){
+        if(chuoi[i]== '-'){
+            chuoi[i]= '_';
+        }
+    }
+    console.log(chuoi);
+    document.write(chuoi.join(''));
+</script>
+</body>
+</html>
